@@ -1,0 +1,6 @@
+F:\AIUB\lab.1\lab.1\bin\Debug\lab.1.exe.config
+F:\AIUB\lab.1\lab.1\bin\Debug\lab.1.exe
+F:\AIUB\lab.1\lab.1\bin\Debug\lab.1.pdb
+F:\AIUB\lab.1\lab.1\obj\Debug\lab.1.csprojResolveAssemblyReference.cache
+F:\AIUB\lab.1\lab.1\obj\Debug\lab.1.exe
+F:\AIUB\lab.1\lab.1\obj\Debug\lab.1.pdb
