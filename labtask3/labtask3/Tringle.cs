@@ -12,8 +12,27 @@ namespace labtask3
         int y;
         int z;
 
-        public int X
-        { get => x;
-          }
+        public int getX()
+        { return x;
+        }
+        public void getX(int X)
+        { x = X; }
+
+        public int getY()
+        { return y; }
+
+        public void getY(int T)
+        { y = y; }
+
+        public int getZ()
+        { return z; }
+
+        public void getZ(int Z)
+        { z = Z; }
+        public void ShowInfo()
+        {
+            Console.WriteLine("X:" + x);
+            Console.WriteLine("Y:" + y);
+            Console.WriteLine("Z:" + z};
     }
 }

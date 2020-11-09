@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace labtask3
+namespace labtask_6
 {
     class Account
     {
@@ -28,10 +28,20 @@ namespace labtask3
 
         public void setBalance(int Balance)
         { balance = Balance; }
-        
+
         public void Deposite(int ammount)
         { balance = balance + ammount; }
-        public void withdrow (int ammount)
+        public void withdrow(int ammount)
         { balance = balance - ammount; }
+
+
+        public void Transfer(int amount, int amountReceiver)
+        {
+            balance += amount;
+            TransferTransaction newTransaction = new TransferTransaction(transferAmount, transferToId, owner);
+            transactions.Add(newTransaction);
+        }
     }
-}
+
+    }
+

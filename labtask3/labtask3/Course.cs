@@ -11,5 +11,23 @@ namespace labtask3
         string courseName;
         string courseCode;
         int courseCredit;
+
+        public string setCorseName ()
+        { return courseName; }
+
+        public void getCorseName( string Corsename)
+        { courseName = Corsename; }
+
+        public string setCorseCode()
+        { return courseCode; }
+
+        public void getCorseCode( string CourseCode)
+        { courseCode = CourseCode; }
+
+        public int setCourseCredit()
+        { return courseCredit; }
+
+        public void setCourseCredit(int CourseCredit)
+        { courseCredit = CourseCredit; }
     }
 }
